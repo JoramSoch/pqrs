@@ -2,12 +2,15 @@
 
 ### The pqrs model for recognition-confidence ratings from episodic memory experiments
 
-These functions provide methods for maximum likelihood estimation or Bayesian estimation of pqrs models based on parametric subsequent memory responses (also called "recognition-confidence ratings") acquired during episodic memory retrieval. A manuscript describing this novel computational model is currently in preparation.
+**Note: This is the repository containing the general toolbox code. For the data set and analysis scripts belonging to the paper describing the model, please see the repository "[FADE_pqrs](https://github.com/JoramSoch/FADE_pqrs)".**
+
+These functions provide methods for maximum likelihood estimation or Bayesian estimation of pqrs models based on subsequent memory reports (also called "recognition-confidence ratings") acquired during episodic memory retrieval. A manuscript describing this novel computational model, entitled "A novel approach for modelling subsequent memory reports by separating decidedness, recognition and confidence", is [available from psyArXiv](https://psyarxiv.com/u5t82/) and described in [another repository](https://github.com/JoramSoch/FADE_pqrs).
 
 
 ## Description of the model
 
-Given trial-wise subsequent memory reports on a Likert scale (ranging from 1 to 5) and a binary variable indicating true item status (old vs. new), the pqrs model separates behavioral responses into three distinct cognitive processes, namely *decidedness*, i.e. the urge to give a non-neutral response at all; *recognition*, i.e. the ability to label previously seen items as "old"; and *confidence*, i.e. the act of labeling an item as "definitely" rather than "probably" old or new.
+Given trial-wise subsequent memory reports on a Likert scale (ranging from 1 to 5) and a binary variable indicating true item status (old vs. new), the pqrs model separates behavioral responses into three distinct cognitive processes, namely *decidedness*, i.e. the tendency to give a
+neutral or non-neutral response; *recognition*, i.e. the ability to label previously seen items as "old"; and *confidence*, i.e. the act of labeling an item as "definitely" rather than "probably" old or new.
 
 
 ## Implementation of the model
